@@ -1811,6 +1811,7 @@ ol.list-num-count.list-outline-none > li:before {
 -------------------------------------*/
 .wt-box { 
 	position:relative; 
+	font-size: 17px;
 }
 .wt-box.no-margin { 
 	margin-bottom:0; 
