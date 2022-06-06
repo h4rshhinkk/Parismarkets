@@ -12606,6 +12606,7 @@ ol.commentlist li::after {
 @media only screen and (max-width:991px) {
 .home-about-section {
 	background-image:none !important;
+	
 }	
 .home-about-section .wt-right-part{
 	margin-top:30px;
