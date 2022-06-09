@@ -12846,10 +12846,111 @@ ol.commentlist li::after {
 }
 
 
+/* MY CSS BY DEV */
+
+.forexpricing li{
+font-weight: 700;
+}
+
+.directmarket li{
+	font-weight: 700;
+	}
+
+.clientsupport{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
 
 
-@media only screen and (max-width: 768px) {
-	body {
-	  background-color: lightblue;
+@media only screen and (max-width: 600px) {
+	.clientsupport {
+		background-size: contain!important;
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/sec-mobile-bg.png)!important;
+		height: 710px;
+	}
+
+	.clientsupportdesc{
+		padding-top: 150px;
 	}
   }
+
+  .reasontochoose .icon-content h4{
+	  color: white !important;
+	  
+  }
+
+  .reasontochoose .icon-content p{
+	  font-size: 17px;
+	  color: white !important;
+
+	
+  }
+
+  .reasontochoose .icon-content h4{
+	  font-size: 18.5px;
+	  font-weight: 700;
+  }
+
+  /* introducing app section start */
+
+  .pmarketapp .pmh2{
+	  margin-bottom: 0px;
+	  color: white;
+	  
+  }
+.pmarketapp .pmptag{
+	font-size: 23px!important;
+	color: white;
+	
+}
+
+.pmarketapp .appdesc{
+	color: white;
+	font-weight: 100;
+}
+
+.pmarketapp .appdesc2{
+	color: white;
+	font-weight: 100;
+}
+
+
+
+
+   /* introducing app section end */
+
+   .installpmapp{
+	background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+   }
+
+
+   @media only screen and (max-width: 600px) {
+	.installpmapp {
+		
+		background-image: url(../images/background/Rectangle-12-mobile.png)!important;
+		height: 500px;
+	}
+
+	
+  }
+
+
+/* AWARD SECTION START*/
+
+
+
+
+
+
+
+/* AWARD SECTION END */
+
+/* contact PMARKET */
+.contactpmarket input{
+	background: none;
+}
+/* Contact pmarkret */
