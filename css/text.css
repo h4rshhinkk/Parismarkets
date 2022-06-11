@@ -8,6 +8,23 @@ body {
     font-size: 20px;
     line-height: 2.6em;
   }
+
+  
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 1px solid rgb(87, 87, 86);
+    padding-left: 100px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 4px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
   
   /* ================ The Timeline ================ */
   
@@ -277,7 +294,7 @@ body {
   
   }
   
-  @media screen and (min-width: 400px ?? max-width: 660px) {
+  @media screen and (min-width: 400px) and (max-width: 660px) {
   
   .direction-l .desc,
   .direction-r .desc {

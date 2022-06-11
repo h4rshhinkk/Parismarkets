@@ -13050,3 +13050,39 @@ font-weight: 700;
 }
 
 /*  */
+
+.layout {
+	width: 600px;
+	margin: auto;
+  }
+  .accordion {
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: white;
+	border-radius: 10px;
+  }
+  .accordion__question p {
+	margin: 5px;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+  }
+  .accordion__answer p {
+	margin: 5px;
+	padding: 10px;
+	font-size: large;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	background: white;
+	border-radius: 10px;
+  }
+  .accordion:hover {
+	cursor: pointer;
+  }
+  .accordion__answer {
+	display: none;
+  }
+  .accordion.active .accordion__answer {
+	display: block;
+  }
