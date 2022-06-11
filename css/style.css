@@ -13202,3 +13202,165 @@ font-weight: 700;
     padding: 15px 100px;
     border: 0;
 }
+
+
+.pmsuperior .color-font{
+
+	background-image: linear-gradient(to bottom right,#00bdff 35%,#26CC02)!important;
+    font-size: 90.5px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1!important;
+    letter-spacing: -2.26px!important;
+    text-align: center!important;
+    color: #0b121c!important;
+	-webkit-background-clip: text!important;
+	-webkit-text-fill-color: transparent!important;
+	text-align: center;
+
+}
+
+.pmsuperior .color-para-head {
+    margin-top: 5px;
+    font-size: 23.5px!important;
+    font-weight: 300!important;
+    color: #0b121c!important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.pmsuperior .color-para {
+    margin-top: 5px;
+    font-size: 18px!important;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56!important;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c!important;}
+
+
+
+	/* one click trading */
+.oneclicktrade{
+	margin-top: -56px;
+    margin-left: -30px;
+    max-width: 103%;
+    transform: scale(1.3);
+    position: relative;
+}
+
+
+	/*  */
+
+	/*full custom  */
+
+.fullcustom{
+	margin-top: -30px;
+    max-width: 100%;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+	/* full custom end */
+
+
+	/* profile chart temp */
+.profilechart{
+	margin-top: -140px;
+    max-width: 96%;
+
+}
+   
+
+
+	@media only screen and (max-width: 600px) {
+		.profilechart {
+			max-width: 100%!important;
+			
+			margin-top: -60px;
+			
+		}
+	
+	  }
+
+
+
+
+	
+
+	/* prof chart temp end */
+
+
+
+	/* pre installed indictors */
+	.preindicator{
+		position: relative;
+		z-index: 9;
+		
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 35%;
+	}
+	
+	
+	@media only screen and (max-width: 600px) {
+		.preindicator {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-image: url(../images/background/img-2-1.png)!important;
+			height: 710px;
+		}
+	
+		.preindicatordesc p{
+			padding-top: 190px;
+			text-align: center!important;
+		}
+	  }
+
+
+	
+		
+	
+	/* pre installed indicator */
+
+	/*  expert advisor*/
+	.expertadvisor{
+		position: relative;
+		z-index: 9;
+		
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 35%;
+	}
+	
+
+
+
+	@media only screen and (max-width: 600px) {
+		.expertadvisor {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-image: url(../images/background/Ea-mobile-mt.png)!important;
+			height: 710px;
+		}
+	
+		.expertadvisordesc p{
+			padding-top: 190px;
+			text-align: center!important;
+		}
+	  }
+
+
+	/* expert advisor */
+
+
+	
