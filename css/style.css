@@ -1150,7 +1150,7 @@ ul.secondry li:before {
 	color:#77C04B;	
 }
 ul.black li:before {
-	color:#000;	
+	color:rgb(0, 183, 255);	
 }
 ul.white li:before {
 	color:#fff;	
@@ -2651,6 +2651,7 @@ ol.list-num-count.list-outline-none > li:before {
 
 .site-button {
 	background-color:#ec5598; 
+	margin-bottom: 20px;
 }
 .site-button:active,
 .site-button:hover,
@@ -13212,12 +13213,20 @@ font-weight: 700;
 	.layout {
 		width: 100%;
 		
+<<<<<<< HEAD
 		
 		
+=======
+>>>>>>> f812502a2880129b2361de265ded9a0778497281
 	}
 
   }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f812502a2880129b2361de265ded9a0778497281
   .accordion {
 	padding: 10px;
 	margin-top: 10px;
