@@ -13203,9 +13203,21 @@ font-weight: 700;
 
 
 .layout {
-	width: 600px;
+	width: 50%;
 	margin: auto;
   }
+
+
+  @media only screen and (max-width: 600px) {
+	.layout {
+		width: 100%;
+		
+		
+		
+	}
+
+  }
+
   .accordion {
 	padding: 10px;
 	margin-top: 10px;
@@ -13322,11 +13334,7 @@ font-weight: 700;
 .pmsuperior .color-font{
 
 	background-image: linear-gradient(to bottom right,#00bdff 35%,#26CC02)!important;
-<<<<<<< HEAD
     font-size: 60.5px!important;
-=======
-    font-size: 81.5px!important;
->>>>>>> e548ded89f4fd70b6475d8ca527489f7527f641f
     font-weight: bold!important;
     font-stretch: normal!important;
     font-style: normal!important;
@@ -13438,6 +13446,15 @@ font-weight: 700;
 			background-image: url(../images/background/img-2-1.png)!important;
 			height: 710px;
 		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.ethereum {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-image: url(../images/background/eth.png)!important;
+			height: 710px;
+		}
 	
 		.preindicatordesc p{
 			padding-top: 190px;
@@ -13446,6 +13463,15 @@ font-weight: 700;
 	  }
 
 
+	@media only screen and (max-width: 600px) {
+		.bonds {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+			height: 710px;
+		}
+
+	}
 	
 		
 	
@@ -13481,16 +13507,37 @@ font-weight: 700;
 
 	/* expert advisor */
 
+	.blue-button-last-section{
+		background: #1BBCE8;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px;
+	}
 
-	
-  .blue-button-last-section{
-	  background: #1BBCE8;
-	  padding-top: 10px;
-	  padding-bottom: 10px;
-	  padding-left: 20px;
-	  padding-right: 20px;
-	  border-radius: 5px;
-  }
+	@media only screen and (max-width: 600px) {
+		.spread-affect {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+			height: 710px;
+		}
+	}
 
 
-  
+		@media only screen and (max-width: 600px) {
+		.understanding {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+		}
+	}
+
+	.spreads-industry{
+		color:black;
+		font-size: 35px;
+		font-weight: 600;
+	}
+
+
