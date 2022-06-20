@@ -2651,6 +2651,7 @@ ol.list-num-count.list-outline-none > li:before {
 
 .site-button {
 	background-color:#ec5598; 
+	margin-bottom: 20px;
 }
 .site-button:active,
 .site-button:hover,
@@ -13723,3 +13724,121 @@ font-weight: 700;
 
 /* indices page end */
 
+/* Trading Hours START */
+
+
+
+
+
+.wid-alig-for-sect{
+	width: 650px;
+	margin: 0 auto; 
+	font-size:18px; 
+	color: black;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.wid-alig-for-sect{
+	width: auto!important;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px!important;
+	}
+
+
+  }
+
+
+.cit-time-sec{
+	display: flex;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    width: 905px;
+    margin: 0 auto;
+
+}
+
+
+/* 
+.wid-alig-for-sect2{
+
+	width: 50%;
+	margin: 0 auto; 
+	
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	.wid-alig-for-sect2{
+	width: auto!important;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px!important;
+	}
+
+
+  } */
+.wid-alig-for-sect2 p{
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+.wid-alig-for-sect2 span{
+	font-weight: 100;
+}
+
+.bcomepart .arrow-imag-align{
+	max-width: 52%;
+
+}
+
+
+.holidayhourstable th{
+color: white;
+}
+
+.holidayhourstable tbody th{
+	color:black;
+}
+
+
+.contractrollovertable th{
+	color: white;
+	}
+	
+
+
+	.contractrollovertable tbody th{
+		color:black;
+	}
+	
+/* Trading Hours PAge end */
+
+
+/* mam/pamm PAge START */
+
+.quickdepositimg{
+	margin-top: -140px;
+    max-width: 96%;
+
+}
+@media only screen and (max-width: 768px) {
+	.quickdepositimg {
+		max-width: 100%!important;
+		
+		margin-top: -60px;
+		
+	}
+
+  }
+
+
+
+
+
+/* mam/pamm page end */
