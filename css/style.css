@@ -693,9 +693,13 @@ Version: 1.0
 1. GENERAL 
 ======================================*/
 
+/* Google Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
 body {
 	background-color:#FFF;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size:14px;
 	font-weight:400; 
 	color:#767676;
@@ -1798,6 +1802,7 @@ ol.list-num-count.list-outline-none > li:before {
 
 .rounded-bx,
 .wt-box ,
+.bt-box,
 .wt-icon-box ,
 .wt-icon-box-small,
 .wt-thum-bx,
@@ -1812,7 +1817,16 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-box { 
 	position:relative; 
 	font-size: 17px;
+	color: black;
 }
+
+.bt-box { 
+	position:relative; 
+	font-size: 17px;
+	color: rgb(255, 255, 255);
+}
+
+
 .wt-box.no-margin { 
 	margin-bottom:0; 
 }
@@ -13213,20 +13227,12 @@ font-weight: 700;
 	.layout {
 		width: 100%;
 		
-<<<<<<< HEAD
 		
 		
-=======
->>>>>>> f812502a2880129b2361de265ded9a0778497281
 	}
 
   }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> f812502a2880129b2361de265ded9a0778497281
   .accordion {
 	padding: 10px;
 	margin-top: 10px;
@@ -13547,6 +13553,39 @@ font-weight: 700;
 		color:black;
 		font-size: 35px;
 		font-weight: 600;
+	}
+
+	@media only screen and (max-width: 900px) {
+		.benefits {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+			
+		}
+	}
+
+	.forex-calculator{
+		width:800px;
+		height:500px;
+		border:solid 2px;
+		border-top-right-radius: 15px;
+	}
+
+	@media only screen and (max-width: 900px){
+		.forex-calculator{
+			width:300px;
+			height:500px;
+			border:solid 2px;
+			border-top-right-radius: 15px;
+			background: rgb(245, 245, 245); 
+		}
+	
+	}
+
+	@media only screen and (max-width: 990px) {
+		.receive{
+			background-color: black;
+		}
 	}
 
 
