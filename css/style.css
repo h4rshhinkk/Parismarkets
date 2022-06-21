@@ -693,9 +693,13 @@ Version: 1.0
 1. GENERAL 
 ======================================*/
 
+/* Google Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
 body {
 	background-color:#FFF;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-size:14px;
 	font-weight:400; 
 	color:#767676;
@@ -1798,6 +1802,7 @@ ol.list-num-count.list-outline-none > li:before {
 
 .rounded-bx,
 .wt-box ,
+.bt-box,
 .wt-icon-box ,
 .wt-icon-box-small,
 .wt-thum-bx,
@@ -1812,7 +1817,16 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-box { 
 	position:relative; 
 	font-size: 17px;
+	color: black;
 }
+
+.bt-box { 
+	position:relative; 
+	font-size: 17px;
+	color: rgb(255, 255, 255);
+}
+
+
 .wt-box.no-margin { 
 	margin-bottom:0; 
 }
@@ -13213,11 +13227,11 @@ font-weight: 700;
 	.layout {
 		width: 100%;
 		
+		
+		
 	}
 
   }
-
-
 
   .accordion {
 	padding: 10px;
@@ -13447,6 +13461,15 @@ font-weight: 700;
 			background-image: url(../images/background/img-2-1.png)!important;
 			height: 710px;
 		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.ethereum {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-image: url(../images/background/eth.png)!important;
+			height: 710px;
+		}
 	
 		.preindicatordesc p{
 			padding-top: 190px;
@@ -13455,6 +13478,15 @@ font-weight: 700;
 	  }
 
 
+	@media only screen and (max-width: 600px) {
+		.bonds {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+			height: 710px;
+		}
+
+	}
 	
 		
 	
@@ -13490,352 +13522,71 @@ font-weight: 700;
 
 	/* expert advisor */
 
-
-	
-  .blue-button-last-section{
-	  background: #1BBCE8;
-	  padding-top: 10px;
-	  padding-bottom: 10px;
-	  padding-left: 20px;
-	  padding-right: 20px;
-	  border-radius: 5px;
-  }
-
-
-   
-
-  /* FOREX ACCOUNT TYPE PAGE START*/
-
-  .whymt5tradingac img{
-	max-width: 100%!important;
-    transform: scale(1);
-    margin-top: 100px;
-    
-}
-
-.tradeonforex .icon-content p{
-	font-size: 16px;
-	color:black !important;
-
-  
-}
-
-.tradeonforex .icon-content h4{
-	font-size: 18px;
-	font-weight: 700;
-	color: black !important;
-}
-
-  
-
-.forextable .table-gradient{
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.forextable .table-gradient table{
-	overflow: hidden;
-	margin-bottom: 0;
-}
-
-.forextable .normal-table-section-for-except {
-    position: relative;
-    border-radius: 0 10px 20px 20px!important;
-    background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26CC68 50%);
-    background-clip: padding-box,border-box;
-    background-origin: padding-box,border-box;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent!important;
-    border-bottom: 1px solid transparent;
-}
-
-.forextable .tablehead {
-    background-image:linear-gradient(90deg, #152a4a 0%,#0888be 48%,#24c870 85%,#26cc68 100%);
-    position: relative;
-}
-
-
-.forextable .table-gradient .table tr {
-    border-bottom: none!important;
-    border-right: none!important;
-    border-top: none!important;
-}
-
-
-
-.forextable .tablerow th{
-    text-align: left!important;
-    padding: 20px;
-    padding-left: 100px;
-
-
-}
-
-
-.forextable .table tr{
-	border-bottom: none!important;
-    border-right: none!important;
-    border-top: none!important;
-
-}
-
-.forextable .gradient-table .tabledata {
-    padding: 15px 100px;
-    border: 0;
-}
-
-
-
-.forexspread {
-
-		border-top: none!important;
-		line-height: .2!important;
-		vertical-align: inherit!important;
-	
-}
-
-  /* FOREX AC A TYPE PAGE END */
-
-/* SHARES PAGE START */
-
-.accountbutton{
-	background: #00bdff;
-    text-transform: uppercase;
-    margin-left: 12px;
-    z-index: 1;
-    height: 50px;
-    padding: 12px 12px;
-    color: #ffffff!important;
-    background-color: #00bdff;
-    position: relative;
-    display: inline-block;
-    font-size: 20.5px;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: center;
-    border-bottom-left-radius: 10px
-}
-
-
-
-
-
-
-.reviewacbutton{
-	background: #00bdff;
-    display: inline-block;
-    margin: 10px 0;
-    font-weight: 600;
-    letter-spacing: 0.28px;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Helvetica Neue LT Pro', sans-serif;
-    text-transform: uppercase;
-    border-radius: 0 10px 10px 10px;
-    color: #fff !important;
-    padding: 16px 10px 18px 25px;
-}
-
-
-.reasontochoose .icon-content h4{
-	color: white !important;
-	
-}
-
-.reasontochoose .icon-content p{
-	font-size: 17px;
-	color: white !important;
-
-  
-}
-
-.reasontochoose .icon-content h4{
-	font-size: 18.5px;
-	font-weight: 700;
-}
-
-
-
-
-
-
-
-/* SHARS PAGE END */
-
-
-/* indices page start */
-
-.whytradeindxcfd .color-font{
-
-	background-image: linear-gradient(to bottom right,#00bdff 35%,#26CC02)!important;
-    font-size: 50.5px!important;
-    font-weight: bold!important;
-    font-stretch: normal!important;
-    font-style: normal!important;
-    line-height: 1!important;
-    letter-spacing: -2.26px!important;
-    text-align: center!important;
-    color: #0b121c!important;
-	-webkit-background-clip: text!important;
-	-webkit-text-fill-color: transparent!important;
-	text-align: center;
-
-}
-
-.whytradeindxcfd .color-para-head {
-    margin-top: 5px;
-    font-size: 18.5px!important;
-    font-weight: 300!important;
-    color: white !important;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
-}
-
-.whytradeindxcfd .color-para {
-    margin-top: 5px;
-    font-size: 18px!important;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.56!important;
-    letter-spacing: normal;
-    text-align: center;
-    color: white!important;}
-
-
-
-	.whatisindxtrading2{
-		color: black;
-		margin-top: 50px;
+	.blue-button-last-section{
+		background: #1BBCE8;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px;
 	}
-	
-	.whatisindxtrading1{
-		margin-top: 50px;
-		padding-left: 40px;
-	}
-	
 
-
-/* indices page end */
-
-/* Trading Hours START */
-
-
-
-
-
-.wid-alig-for-sect{
-	width: 650px;
-	margin: 0 auto; 
-	font-size:18px; 
-	color: black;
-
-}
-
-@media only screen and (max-width: 768px) {
-	.wid-alig-for-sect{
-	width: auto!important;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px!important;
+	@media only screen and (max-width: 600px) {
+		.spread-affect {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+			height: 710px;
+		}
 	}
 
 
-  }
-
-
-.cit-time-sec{
-	display: flex;
-    padding-top: 35px;
-    padding-bottom: 15px;
-    width: 905px;
-    margin: 0 auto;
-
-}
-
-
-/* 
-.wid-alig-for-sect2{
-
-	width: 50%;
-	margin: 0 auto; 
-	
-
-
-
-}
-
-@media only screen and (max-width: 768px) {
-	.wid-alig-for-sect2{
-	width: auto!important;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px!important;
+		@media only screen and (max-width: 600px) {
+		.understanding {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+		}
 	}
 
-
-  } */
-.wid-alig-for-sect2 p{
-	font-weight: 600;
-	padding-top: 20px;
-}
-
-.wid-alig-for-sect2 span{
-	font-weight: 100;
-}
-
-.bcomepart .arrow-imag-align{
-	max-width: 52%;
-
-}
-
-
-.holidayhourstable th{
-color: white;
-}
-
-.holidayhourstable tbody th{
-	color:black;
-}
-
-
-.contractrollovertable th{
-	color: white;
-	}
-	
-
-
-	.contractrollovertable tbody th{
+	.spreads-industry{
 		color:black;
+		font-size: 35px;
+		font-weight: 600;
 	}
+
+	@media only screen and (max-width: 900px) {
+		.benefits {
+			background-size: contain!important;
+			background-position: 50% 0%!important;
+			background-color: black;
+			
+		}
+	}
+
+	.forex-calculator{
+		width:800px;
+		height:500px;
+		border:solid 2px;
+		border-top-right-radius: 15px;
+	}
+
+	@media only screen and (max-width: 900px){
+		.forex-calculator{
+			width:300px;
+			height:500px;
+			border:solid 2px;
+			border-top-right-radius: 15px;
+			background: rgb(245, 245, 245); 
+		}
 	
-/* Trading Hours PAge end */
-
-
-/* mam/pamm PAge START */
-
-.quickdepositimg{
-	margin-top: -140px;
-    max-width: 96%;
-
-}
-@media only screen and (max-width: 768px) {
-	.quickdepositimg {
-		max-width: 100%!important;
-		
-		margin-top: -60px;
-		
 	}
 
-  }
+	@media only screen and (max-width: 990px) {
+		.receive{
+			background-color: black;
+		}
+	}
 
 
 .transparent-calculation{
