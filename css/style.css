@@ -13838,7 +13838,231 @@ color: white;
   }
 
 
+.transparent-calculation{
+	min-width: 100%;
+   
+    margin-left: 25px;
+	padding-top: 35px;
+}
+
+@media only screen and (max-width: 767px){
+	.transparent-calculation-bg {
+		background-image: url(../images/background/Group-416-for-mobile.png)!important;
+		height: 770px;
+		background-size: cover;
+		background-position: 60%;
+	}
 
 
+	.transparent-calculation{
+		display: none;
+	}
+
+	.transparent-calculation-content{
+		padding-top: 300px;
+	}
+
+}
+	
+
+
+
+
+
+.beapartofpm{
+	
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    min-height: 320px;
+}
+
+
+@media only screen and (max-width: 992px) {
+	.beapartofpm {
+		background-size: contain!important;
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/bg-mob-fpmmp.jpg)!important;
+		height: 710px;
+	}
+
+
+
+	.beapartofpmdesc p{
+		padding-top: 200px;
+		text-align: center!important;
+	}
+  }
+
+
+
+
+	
 
 /* mam/pamm page end */
+
+
+/* traders toolbox STRT */
+.bg-for-card {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+    background-image: url(../images/background/bg-green.png);
+    background-repeat: round;
+    background-size: auto;
+	
+}
+
+
+
+.blue-button-card {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    border-radius: 0 10px 10px 10px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    width: 320px;
+    font-weight: 700;
+    background-color: #00beff;
+    padding: 16px 28px;
+}
+
+
+.card-h2-font {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+}
+
+
+
+
+/* @media only screen and ((max-width: 1202px) and (min-width: 538px)) {
+
+
+	
+
+
+
+
+	
+  } */
+
+  
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+.blue-button {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    float: right;
+    border-radius: 0 10px 10px 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    width: 250px;
+    font-weight: 700;
+    background-color: #00beff;
+    padding: 16px 13px;
+}
+
+.black-button {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    border-radius: 0 10px 10px 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    width: 320px;
+    font-weight: 700;
+    background-color: #202835;
+    float: left;
+    text-align: center;
+    padding: 16px 13px;
+}
+
+
+
+
+
+
+
+
+/* traders toolbox end */
+
+
+/* myfxbook START */
+
+.myfxtrade{
+	max-width: 100%;
+    transform: scale(1.4);
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+
+.normal-para-font-myfxbook{
+	font-family: 'Helvetica Neue LT Pro', sans-serif;
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+
+
+
+
+.tradingchoice .icon-content p{
+	font-size: 16px;
+	color:white !important;
+
+  
+}
+
+.tradingchoice .icon-content h4{
+	font-size: 18px;
+	font-weight: 700;
+	color: white !important;
+}
+
+
+
+
+.blue-button-myfxbook{
+	font-family: 'Helvetica Neue BD Pro', sans-serif;
+    border-radius: 0 10px 10px 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    width: 250px;
+    font-weight: 700;
+    background-color: #00beff;
+    padding: 19px 20px 17px 20px;
+}
+
+/* myfxbook END */
