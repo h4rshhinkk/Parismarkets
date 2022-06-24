@@ -2663,6 +2663,8 @@ ol.list-num-count.list-outline-none > li:before {
 	text-decoration: none !important;
 }
 
+
+
 .site-button {
 	background-color:#ec5598; 
 	margin-bottom: 20px;
@@ -13531,6 +13533,15 @@ font-weight: 700;
 		border-radius: 5px;
 	}
 
+	.blue-button-last-section2{
+		background: #1BBCE8;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px;
+	}
+
 	@media only screen and (max-width: 600px) {
 		.spread-affect {
 			background-size: contain!important;
@@ -13588,4 +13599,138 @@ font-weight: 700;
 		}
 	}
 
+	@media only screen and (max-width: 900px) {
+		.derivatives{
+			background-color: black;
+			
+		}
+	}
 
+	@media only screen and (max-width: 900px) {
+		.product-offering{
+			background-color: white;
+			
+		}
+	}
+
+	@media only screen and (max-width: 900px) {
+		.leveraged{
+			background-color:black;
+		}
+	}
+
+
+	.price-table .first-std-card {
+		background-repeat: no-repeat;
+		background-image: url(../images/background/Group-420-desktop.png);
+		background-size: contain;
+		height: 624px;
+		background-position: 90%;
+	}
+
+	.price-table .second-raw-card {
+		background-repeat: no-repeat;
+		background-image: url(../images/background/popular-desktop.png);
+		background-size: contain;
+		height: 624px;
+		background-position: 12%;
+	}
+
+	.price-table .padding-top-40 {
+		padding-top: 40px;
+	}
+
+	.price-table .row {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.price-table .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		position: relative;
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#forex-account-types-section {
+		padding-top: 60px;
+		padding-bottom: 65px;
+	}
+
+	.price-table .container {
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.card-left {
+		display: inline-flex;
+		
+	}
+
+	.card-sec-para-font {
+		font-size: 15px;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.35;
+		
+		letter-spacing: normal;
+		text-align: left;
+		color: #0b121c;
+	}
+
+
+	.card-sec-bold-font {
+		font-size: 15px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.35;
+		letter-spacing: normal;
+		
+		text-align: right;
+		color: #0b121c;
+	}
+
+	.card-right {
+		font-weight: bold;
+		color: #0b121c!important;
+		/* margin-left: 100px; */
+	}
+
+
+	.card-left {
+		display: inline-flex;
+		/* margin-top: 160px;
+		margin-left: 165px; */
+	}
+
+	.price-table .blue-button-card {
+		font-family: 'Helvetica Neue BD Pro', sans-serif;
+		border-radius: 0px 10px 10px 10px;
+		background-color: #00beff;
+		color: #fff;
+		font-size: 20px;
+		line-height: 21px;
+		width: 265px;
+		font-weight: 700;
+		padding: 20px 14px 15px 14px;
+		text-align: center;
+		
+	}
+
+	.price-table .red-button-card {
+		font-family: 'Helvetica Neue BD Pro', sans-serif;
+		border-radius: 0px 10px 10px 10px;
+		background-color: red;
+		color: #fff;
+		font-size: 20px;
+		line-height: 21px;
+		width: 265px;
+		font-weight: 700;
+		padding: 20px 14px 15px 14px;
+		text-align: center;
+		
+	}
