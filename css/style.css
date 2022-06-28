@@ -12885,13 +12885,50 @@ font-weight: 700;
 		background-size: contain!important;
 		background-position: 50% 0%!important;
 		background-image: url(../images/background/sec-mobile-bg.png)!important;
-		height: 710px;
+		background-size: cover;
+		
 	}
 
 	.clientsupportdesc{
 		padding-top: 190px;
 	}
+	.clientsupportdesc2{
+		padding-top: 300px;
+	}
   }
+
+  @media only screen and (max-width: 600px) {
+	.clientsupport2 {
+	
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/sec-mobile-bg.png)!important;
+		background-size: cover;
+	}
+		
+	.clientsupportdesc3{
+		padding-top: 350px;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.why-social-trading {
+	
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/Rectangle-9-mobile.png)!important;
+		background-size: cover;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.how-does-social-trade {
+	
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/Rectangle-10-mobile.png)!important;
+		background-size: cover;
+	}
+}
+
 
   .reasontochoose .icon-content h4{
 	  color: white !important;
@@ -13391,9 +13428,8 @@ font-weight: 700;
 
 	/* one click trading */
 .oneclicktrade{
-	margin-top: -56px;
-    margin-left: -30px;
-    max-width: 103%;
+
+    max-width: 100%;
     transform: scale(1.3);
     position: relative;
 }
@@ -13404,7 +13440,7 @@ font-weight: 700;
 	/*full custom  */
 
 .fullcustom{
-	margin-top: -30px;
+
     max-width: 100%;
     transform: scale(1.2);
 }
@@ -13721,6 +13757,671 @@ font-weight: 700;
 		
 	}
 
+	
+
+/* mam/pamm page end */
+
+
+/* traders toolbox STRT */
+.bg-for-card {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+    background-image: url(../images/background/bg-green.png);
+    background-repeat: round;
+    background-size: auto;
+	
+}
+
+
+
+.blue-button-card {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    border-radius: 0 10px 10px 10px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    width: 320px;
+    font-weight: 700;
+    background-color: #00beff;
+    padding: 16px 28px;
+}
+
+
+.card-h2-font {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+}
+
+
+
+
+/* @media only screen and ((max-width: 1202px) and (min-width: 538px)) {
+
+
+	
+
+
+
+
+	
+  } */
+
+  
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+.blue-button {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    float: right;
+    border-radius: 0 10px 10px 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    width: 250px;
+    font-weight: 700;
+    background-color: #00beff;
+    padding: 16px 13px;
+}
+
+.black-button {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    border-radius: 0 10px 10px 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    width: 320px;
+    font-weight: 700;
+    background-color: #202835;
+    float: left;
+    text-align: center;
+    padding: 16px 13px;
+}
+
+
+
+
+
+
+
+
+/* traders toolbox end */
+
+
+/* myfxbook START */
+
+.myfxtrade{
+	max-width: 100%;
+    transform: scale(1.4);
+    margin-top: -32px;
+    margin-left: 45px;
+}
+
+
+.normal-para-font-myfxbook{
+	font-family: 'Helvetica Neue LT Pro', sans-serif;
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+
+
+
+
+.tradingchoice .icon-content p{
+	font-size: 16px;
+	color:white !important;
+
+  
+}
+
+.tradingchoice .icon-content h4{
+	font-size: 18px;
+	font-weight: 700;
+	color: white !important;
+}
+
+
+
+
+.blue-button-myfxbook{
+	font-family: 'Helvetica Neue BD Pro', sans-serif;
+    border-radius: 0 10px 10px 10px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+    width: 250px;
+    font-weight: 700;
+    background-color: #00beff;
+    padding: 19px 20px 17px 20px;
+}
+
+/* myfxbook END */
+
+
+/* futures START */
+
+
+/* .new-semi-head-color-font {
+    background-image: linear-gradient(295deg,#00bdff 40%,#26CC02);
+    font-size: 32.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00bdff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+
+/* .normal-para-font {
+    font-size: 17.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+} */
+
+
+
+
+
+.futurestradingimg{
+    max-width: 100%;
+    
+    margin-top: -20px;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+
+.normal-parag-font{
+	font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+}
+
+.new-semi-head-color-font{
+	
+    background-image: linear-gradient(280deg,#00bdff 40%,#26CC02 75%);
+    font-size: 32.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 43px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00bdff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.normal-parag-font2 {
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+/*  */
+
+
+
+.howto-trade-futures .h2-cent-font-sect {
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+}
+
+.howto-trade-futures .normal-parag-font {
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+
+
+/* Derivatives END */
+
+
+/* depostit funding CARD START */
+
+.fundingcard .three-cross-row-card-white-bg {
+    border-radius: 0px 10px 10px 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0 rgb(9 10 11 / 20%);
+	height: 530px;
+}
+
+.fundingcard .card-header-bg {
+    background-color: #f9fafb;
+}
+
+.fundingcard .ul-class-for-card {
+    display: flex;
+    width: auto;
+}
+
+.fundingcard .card-h4-font {
+    font-size: 14px;
+    font-family: 'Helvetica Neue LT Pro', sans-serif;
+    font-weight: 600;
+    line-height: 2.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+    font-stretch: normal;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+.fundingcard .card-header-font {
+    font-family: 'Helvetica Neue BD Pro', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+}
+
+.fundingcard .card-para-font {
+    font-size: 22px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+    font-family: 'Helvetica Neue LT Pro', sans-serif;
+}
+
+.fundingcard .ul-class-for-card {
+    display: flex;
+    width: auto;
+	list-style: none;
+}
+
+.fundingcard .li-width-for-align {
+    width: 50%;
+}
+
+.fundingcard .card-list-border-right {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient( to top, #fff , rgba(62, 73, 92, 0.2), #fff) 1 100%;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.fundingcard .fund-now-button {
+    background: #00bdff !important;
+    border: none;
+    border-radius: 0 10px 10px 10px !important;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.98px;
+    text-align: center;
+    padding: 10px 25px 3px 25px;
+	color:white;
+	font-family: 'Helvetica Neue BD Pro', sans-serif !important;
+}
+
+
+
+
+.fundingcard .popular-image-align {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    max-width: 20%;
+    width: 120px;
+}
+
+
+
+
+
+
+.bankfeecost{
+	
+	color: white;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+
+}
+
+
+@media only screen and (max-width: 990px) {
+	.bankfeecost {
+		background-size: cover!important;
+		background-image: url(../images/background/Rectangle-12-mobilebankfeecost.png)!important;
+		background-repeat: no-repeat;
+		background-position: 100%;
+		padding-top: 0px;
+	
+		
+	}
+
+	.bankfeecostdesc{
+		padding-top: 368px;
+		
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.fastacopening .open-account-now-button{
+    background: #00bdff;
+    font-family: 'Helvetica Neue BD Pro', sans-serif !important;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.98px;
+    text-align: center;
+    padding: 15px 40px 10px 40px;
+}
+
+
+
+
+/* deposit funding card END */
+
+/* sponserpage about pmmarket */
+
+.sponserimg .c7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(../images/background/sponsorship-desktop-new.png);
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+
+
+.sponserimg .height-for-image {
+    height: 505px;
+    margin-top: -70px;
+}
+
+/* aboyt pmarket page end */
+
+
+/* regulations page */
+
+.regulation-cards .bg-for-card-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    height: 500px;
+    background-image: url(../images/background/large-size-card.png);
+    background-repeat: round;
+    z-index: 9;
+    position: relative;
+}
+
+
+.regulation-cards .bg-for-card-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    background-image: url(../images/background/large-size-card.png);
+    background-repeat: round;
+    height: 500px;
+    z-index: 9;
+    position: relative;
+}
+
+.regulation-cards .bg-for-card-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    background-image: url(../images/background/large-size-card.png);
+    background-repeat: round;
+    height: 500px;
+    z-index: 9;
+    position: relative;
+}
+
+
+.regulation-cards .bg-for-card-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-image: url(../images/background/large-size-card.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 9;
+    height: 500px;
+    position: relative;
+    width: 33.33333333%;
+    margin: 0 auto;
+}
+
+
+.regulation-cards .para-card-font {
+    
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+.job-hiring-careers .wid-align-for-sone {
+    width: 655px;
+    margin: 0 auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+.wid-align-for-sone {
+    width: auto!important;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+
+
+
+.job-hiring-careers .normal-parag-font {
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+
+.cv-mail-part #areas-of-interest-section {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+
+.cv-mail-part .normal-parag-font {
+   
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    
+    color: #0b121c;
+}
+
+
+.cv-mail-part .wid-align-for-sec {
+    width: 595px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px){
+.cv-mail-part .wid-align-for-sec {
+    width: auto!important;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+
+/* regulations end */
+
+
+/* legel documenta page start */
+
+.job-hiring-careers .bg-for-card-s1 {
+    background: #EFF0F1;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+}
+
+.job-hiring-careers .h2-font-left {
+    /* font-family: 'Helvetica Neue BD Pro', sans-serif; */
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+
+
+
+.job-hiring-careers .normal-font-parag {
+    /* font-family: 'Helvetica Neue LT Pro', sans-serif; */
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: -0.19px;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+.job-hiring-careers .bg-for-card-s2 {
+    background: #EFF0F1;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+}
+
+
+
+/* legal doc page end */
 	.price-table .red-button-card {
 		font-family: 'Helvetica Neue BD Pro', sans-serif;
 		border-radius: 0px 10px 10px 10px;
