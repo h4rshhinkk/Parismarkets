@@ -12873,7 +12873,7 @@ font-weight: 700;
 	font-weight: 700;
 	}
 
-.clientsupport{
+.clientsupport1 .clientsupport{
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 100%;
@@ -12881,7 +12881,7 @@ font-weight: 700;
 
 
 @media only screen and (max-width: 600px) {
-	.clientsupport {
+	.clientsupport1	.clientsupport {
 		background-size: contain!important;
 		background-position: 50% 0%!important;
 		background-image: url(../images/background/sec-mobile-bg.png)!important;
@@ -12889,7 +12889,7 @@ font-weight: 700;
 		
 	}
 
-	.clientsupportdesc{
+.clientsupport1	.clientsupportdesc{
 		padding-top: 190px;
 	}
 	.clientsupportdesc2{
@@ -13579,7 +13579,7 @@ font-weight: 700;
 		}
 	
 		.preindicatordesc p{
-			padding-top: 190px;
+			padding-top: 120px;
 			text-align: center!important;
 		}
 	  }
@@ -14504,3 +14504,389 @@ font-weight: 700;
 		text-align: center;
 		
 	}
+
+
+/* inidces page why trade with cfd START */
+
+.tradeindexcfd-sec .color-font {
+    background-image: linear-gradient(to bottom right,#00bdff 35%,#26CC02)!important;
+    font-size: 50px;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    font-family: 'Helvetica Neue BD Pro', sans-serif !important;
+    line-height: 1!important;
+    letter-spacing: -2.26px!important;
+    text-align: center!important;
+    color: #3e495c!important;
+    -webkit-background-clip: text!important;
+    background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    margin-bottom: 5px;
+}
+
+.tradeindexcfd-sec .indices-cfd .color-fsize {
+    font-size: 23.5px !important;
+    margin: 0 0 15px;
+    color: #fff !important;
+}
+
+.tradeindexcfd-sec .color-para {
+    color: #fff !important;
+	text-align: center;
+}
+
+.tradeindexcfd-sec .color-fsize {
+    font-size: 23.5px !important;
+    margin: 0 0 15px;
+    color: #fff !important;
+	text-align: center;
+}
+
+
+
+
+ /* inidces page why trade with cfd END */
+
+
+
+ /* what you can trade page start */
+
+ .tradeforexcfdsec .wid-for-fs {
+    width: 660px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px){
+	.tradeforexcfdsec .wid-for-fs {
+    width: auto !important;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px !important;
+}
+
+}
+
+
+.tradeforexcfdsec .normal-para-left-sect {
+    font-size: 18.5px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b121c;
+}
+
+
+.globalproduct h4{
+	font-size: 22.5px;
+	letter-spacing: normal;
+    text-align: center;
+    color: #0b121c !important;
+	font-weight: 800;
+}
+
+
+.globalproduct p{
+	font-size: 18.5px;
+    font-weight: 300;
+	line-height: 1.51;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b121c;
+}
+
+
+
+
+ /* what you can trade page end */
+
+
+ /* withdraw fund page STARt */
+
+
+
+
+
+
+ /* withdraw fund page END */
+
+
+
+ /* mt5 page START */
+
+
+ @media only screen and (max-width: 600px){
+	.customisedrobots .customisedrobotsbanner {
+    background-image: url(../images/background/trade-hours-mobile.png)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent!important;
+    margin-top: -25px;
+}
+.customisedrobots .fullcustom{
+	display: none;
+}
+
+.customisedrobots .margin-for-mobile-alignment-robosection {
+    margin-top: 562px;
+	
+}
+
+.customisedrobots .margin-for-mobile-alignment-robosection .robotdesc{
+	color: white;
+}
+
+.customisedrobots .margin-for-mobile-alignment-robosection .robotdesc p{
+	color: white;
+}
+
+
+
+
+
+
+}
+
+.customisedrobots .robotdesc{
+	color: black;
+
+}
+
+.customisedrobots .robotdesc p{
+	color: black;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+.mt5foronline .fullcustom{
+	display: none;
+
+}
+
+.mt5foronline .image-align-for-mobile {
+    width: 90%!important;
+    margin-left: 20px;
+    margin-top: -105px;
+    margin-bottom: 20px;
+}
+
+
+}
+ /* mt5 page end */
+
+
+
+ /* shares-trading page START  */
+
+.platformoptions #best-platform-section {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.platformoptions .sub-title p {
+    text-align: center;
+}
+
+.platformoptions .sub-title.mobile-subtitle-1 p {
+    font-size: 23px !important;
+}
+
+.platformoptions ul {
+    list-style: none;
+}
+
+.platformoptions .pb-md-50 {
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.platformoptions .iress-mtlist {
+    display: flex;
+    justify-content: center;
+}
+
+.platformoptions .iress-mtlist li .slip-recommended {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 85px;
+}
+
+.platformoptions .slip-recommended {
+   
+    width: 120px;
+    
+}
+
+.platformoptions .mtlist-inner {
+    background-color: #fff;
+    padding: 25px 15px;
+    border-radius: 20px;
+}
+
+.platformoptions .iress-mtlist .iress-list-img {
+    position: relative;
+}
+
+.platformoptions .iress-mtlist .iress-listbtn {
+    color: #fff;
+    background: #00bdff;
+    display: inline-block;
+    padding: 5px 15px 1px;
+    font-family: 'Helvetica Neue LT Pro', sans-serif;
+    margin: 15px 0 0;
+    border-radius: 0 8px 8px 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.platformoptions .iress-mtlist li {
+    position: relative;
+    text-align: center;
+    margin: 0 20px;
+    padding: 1px;
+    border-radius: 20px;
+    background: linear-gradient( white, white), linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26CC68);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent!important;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    min-height: 370px;
+    width: 240px;
+}
+
+.directmarkettable #cfd-section-table1 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.directmarkettable .d-flex {
+    display: flex!important;
+}
+
+.directmarkettable .forma-control {
+    border: 1px solid transparent !important;
+   
+    border-image-source: url(../images/icon/search-2-min.png) !important;
+    border-image-slice: 16 !important;
+    border-image-width: 10px !important;
+   
+    appearance: none !important;
+    background: #fff url(../images/icon/down-arrow.png) no-repeat 90% 50%;
+    width: 100px;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+
+.directmarkettable .searchbar-image-align {
+    float: right;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 15px;
+}
+
+
+
+
+.directmarkettable .bg-style-for-box {
+    font-weight: 300;
+    width: 75%!important;
+    box-shadow: none;
+    font-size: 18px;
+    color: #0b121c!important;
+    float: right;
+}
+
+
+
+@media only screen and (max-width: 1234px){
+	
+
+.directmarkettable .searchbar-image-align {
+    float: right;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+	
+	
+	}
+
+	.directmarkettable input[type="text"]{
+	position: relative;
+		height: 47px;
+		line-height: 47px;
+		
+		background-color: transparent;
+		width: 100%;
+		margin-bottom: 16px;
+		padding: 0 16px;
+		
+		transition: border-color .3s ease-in-out;
+	}
+
+
+
+
+/* lastletable */
+
+
+.sharetable	.gradient-table {
+		margin: 20px 0;
+	}
+
+
+.sharetable .scroll-bar-for-table-vert-line {
+    overflow-y: auto;
+    height: 550px;
+}
+
+.sharetable .gradient-table .table thead {
+    background-image: linear-gradient(90deg, #152a4a 0%, #0888be 48%, #24c870 85%, #26cc68 100%);
+    position: relative;
+}
+
+
+/* .disply-blo {
+    display: block;
+} */
+
+
+.sharetable table thead th {
+    color: white;
+}
+
+
+
+.sharetable .dma-table-section {
+    position: relative;
+    border-radius: 0 10px 20px 20px!important;
+    background: linear-gradient( white, white), linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26cc68);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+    border-bottom: 2px solid transparent;
+}
+
+
+
+.sharetable .searchbar-image-align {
+    float: right;
+    position: absolute;
+    margin-left: 205px;
+    margin-top: 15px;
+}
+ /* shares-trdaing page END */
