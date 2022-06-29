@@ -12885,62 +12885,49 @@ font-weight: 700;
 		background-size: contain!important;
 		background-position: 50% 0%!important;
 		background-image: url(../images/background/sec-mobile-bg.png)!important;
-		height: 710px;
+		background-size: cover;
+		
 	}
 
 .clientsupport1	.clientsupportdesc{
 		padding-top: 190px;
 	}
+	.clientsupportdesc2{
+		padding-top: 300px;
+	}
   }
 
-.socialvscopytrading .socialcopytrading{
-	background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center ;
+  @media only screen and (max-width: 600px) {
+	.clientsupport2 {
+	
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/sec-mobile-bg.png)!important;
+		background-size: cover;
+	}
+		
+	.clientsupportdesc3{
+		padding-top: 350px;
+	}
 }
 
 
+@media only screen and (max-width: 600px) {
+	.why-social-trading {
+	
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/Rectangle-9-mobile.png)!important;
+		background-size: cover;
+	}
+}
 
 @media only screen and (max-width: 600px) {
-	.socialvscopytrading .socialcopytrading{
-		background-size: cover!important;
-		background-position: center!important;
-		background-image: url(../images/background/socialvscopymobile.png)!important;
-		
+	.how-does-social-trade {
+	
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/Rectangle-10-mobile.png)!important;
+		background-size: cover;
 	}
-
-
-  }
-
-  @media only screen and (max-width: 770px) {
-	.copytrading .phonebox{
-	display: none;
-	}
-
-
-  }
-
-  @media only screen and (max-width: 770px) {
-	.copytradingwithpm .imggroup4{
-	display: none;
-	}
-
-
-  }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
   .reasontochoose .icon-content h4{
@@ -13441,9 +13428,8 @@ font-weight: 700;
 
 	/* one click trading */
 .oneclicktrade{
-	margin-top: -56px;
-    margin-left: -30px;
-    max-width: 103%;
+
+    max-width: 100%;
     transform: scale(1.3);
     position: relative;
 }
@@ -13454,7 +13440,7 @@ font-weight: 700;
 	/*full custom  */
 
 .fullcustom{
-	margin-top: -30px;
+
     max-width: 100%;
     transform: scale(1.2);
 }
@@ -14167,7 +14153,7 @@ font-weight: 700;
 
 
 .bankfeecost{
-	height: 390px;
+	
 	color: white;
 	background-repeat: no-repeat;
     background-size: cover;
@@ -14181,15 +14167,14 @@ font-weight: 700;
 		background-size: cover!important;
 		background-image: url(../images/background/Rectangle-12-mobilebankfeecost.png)!important;
 		background-repeat: no-repeat;
-		background-size: inherit;
-		background-position: 135%;
+		background-position: 100%;
 		padding-top: 0px;
-		padding-bottom: 50px;
+	
 		
 	}
 
 	.bankfeecostdesc{
-		padding-top: 190px;
+		padding-top: 368px;
 		
 	}
   }
