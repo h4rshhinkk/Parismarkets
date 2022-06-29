@@ -12911,6 +12911,32 @@ font-weight: 700;
 }
 
 
+.socialtrade .clientsupport{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.socialtrade .clientsupport {
+		background-size: contain!important;
+		background-position: 50% 0%!important;
+		background-image: url(../images/background/sec-mobile-bg.png)!important;
+		background-size: cover;
+		
+	}
+
+	.socialtrade .clientsupportdesc{
+		padding-top: 190px;
+	}
+	.socialtrade .clientsupportdesc2{
+		padding-top: 300px;
+	}
+  }
+
+
+
 @media only screen and (max-width: 600px) {
 	.why-social-trading {
 	
@@ -13422,7 +13448,50 @@ font-weight: 700;
     line-height: 1.56!important;
     letter-spacing: normal;
     text-align: center;
-    color: #0b121c!important;}
+    color: #0b121c!important;
+}
+
+
+
+.smsuperior .color-font{
+
+	background-image: linear-gradient(to bottom right,#00bdff 35%,#26CC02)!important;
+    font-size: 50px!important;
+    font-weight: bold!important;
+    font-stretch: normal!important;
+    font-style: normal!important;
+    line-height: 1!important;
+    letter-spacing: -2.26px!important;
+    text-align: center!important;
+    color: #0b121c!important;
+	-webkit-background-clip: text!important;
+	-webkit-text-fill-color: transparent!important;
+	text-align: center;
+
+}
+
+.smsuperior .color-para-head {
+    margin-top: 5px;
+    font-size: 18.5px!important;
+    font-weight: 300!important;
+    color: white!important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.smsuperior .color-para {
+    margin-top: 5px;
+    font-size: 18px!important;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56!important;
+    letter-spacing: normal;
+    text-align: center;
+    color: white!important;
+}
 
 
 
@@ -13430,7 +13499,7 @@ font-weight: 700;
 .oneclicktrade{
 
     max-width: 100%;
-    transform: scale(1.3);
+    transform: scale(1.2);
     position: relative;
 }
 
