@@ -9134,7 +9134,13 @@ header .logo{
 	display:table-cell;
 	vertical-align:middle;
 }
-
+/* .wt-bnr-inr2 { 
+	height:300px;
+	background-size:cover; 
+	background-position:center center;
+	display:table;
+	width:100%;
+} */
 
 .banner-inner-row h1,
 .banner-inner-row h2,
@@ -13576,6 +13582,7 @@ font-weight: 700;
 			background-position: 50% 0%!important;
 			background-image: url(../images/background/eth.png)!important;
 			height: 710px;
+			padding-top: 280px;
 		}
 	
 		.preindicatordesc p{
@@ -13598,7 +13605,11 @@ font-weight: 700;
 		
 	
 	/* pre installed indicator */
+.row{
+margin-left: 0px;
+margin-right: 0px;
 
+}
 	/*  expert advisor*/
 	.expertadvisor{
 		position: relative;
@@ -13714,6 +13725,7 @@ font-weight: 700;
 	@media only screen and (max-width: 900px) {
 		.product-offering{
 			background-color: white;
+			background-size: cover;
 			
 		}
 	}
@@ -13949,8 +13961,8 @@ font-weight: 700;
 
 
 .normal-para-font-myfxbook{
-	font-family: 'Helvetica Neue LT Pro', sans-serif;
-    font-size: 18.5px;
+	
+    font-size: 15px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -14247,6 +14259,14 @@ font-weight: 700;
 		
 	}
   }
+
+
+@media only screen and (max-width: 990px){
+	.ripple{
+		background-image: url(../images/background/rippleformobile.png)!important;
+		background-size: cover;
+	}
+}
 
 
 
