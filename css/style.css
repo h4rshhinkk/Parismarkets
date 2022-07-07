@@ -15130,4 +15130,41 @@ margin-right: 0px;
 
 
 
- /* REWORK MT$ Page End */
+ /* REWORK MT4 Page End */
+
+
+ /* rework on mt5 START */
+
+
+ .tradeonmt5 .light-blue-bg {
+	background-color: #000;
+ }
+ 
+ .tradeonmt5 #section2 {
+	 padding-top: 90px;
+	 padding-bottom: 95px;
+ }
+ 
+ 
+ .tradeonmt5 .light-blue-bg-font {
+	 font-size: 16.5px;
+	 font-weight: 200;
+	 font-stretch: normal;
+	 font-style: normal;
+	 line-height: 1.51;
+	 letter-spacing: normal;
+	 text-align: center;
+	 color: #ffffff!important;
+ }
+ 
+ 
+ 
+ @media  screen and (min-width: 450px) and (max-width: 990px) {
+	.mt5foronline .fullcustom{
+		display: none;
+	
+	}
+
+ }
+
+ /* Rework o mt5 END */
