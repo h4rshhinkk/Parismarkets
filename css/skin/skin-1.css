@@ -1,16 +1,16 @@
 
 /*===================== 
-	Premery bg color 
+	Premery bg color #FF9800
 =====================*/
 
 ::selection {
- background: #FF9800;
+ background: #001b4a; 
 }
 ::-moz-selection {
- background: #FF9800;
+ background: #001b4a;
 }
 ::-webkit-selection {
-  background: #FF9800;
+  background: #001b4a;
 }
 
 /* Premery bg Hex color*/
