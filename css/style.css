@@ -818,17 +818,17 @@ table {
 	float:none;
 }
 ::selection {
-	background: #ec5598;
+	background: #001b4a;
 	color: #fff;
 }
 
 ::-moz-selection {
-	background: #ec5598;
+	background: #001b4a;
 	color: #fff;
 }
 
 ::-webkit-selection {
-	 background: #ec5598;
+	 background: #001b4a;
 	 color: #fff;
 }
 
@@ -2669,14 +2669,14 @@ ol.list-num-count.list-outline-none > li:before {
 
 
 .site-button {
-	background-color:#ec5598; 
+	background-color: #001b4a;
 	margin-bottom: 20px;
 }
 .site-button:active,
 .site-button:hover,
 .site-button:focus,
 .active > .site-button { 
-	background-color:#e4a101; 
+	background-color: #001b4a;
 	color: #fff; 
 }
 
@@ -7624,6 +7624,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .extra-nav .extra-cell{
 	display:inline-block;
 	margin-left:10px;
+	margin-top: 26px;
 }
 
 @media only screen and (max-width:480px) {
@@ -8011,7 +8012,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .header-botton {
-	background-color:#171f2c;
+	background-color:#001b4a;
 }
 .header-botton .header-nav .nav {
 	float:none;
@@ -8270,6 +8271,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .header-nav .nav {
 	float:right;
+	margin-top: 15px;
 }
 
 .header-nav .nav i {
@@ -8860,8 +8862,9 @@ header .logo{
 .header-style-3 .is-fixed .main-bar {
     position:fixed;
 }
+
 .header-style-3 .is-fixed.color-fill .main-bar {
-    background:#000;
+    background:#001b4a;
 }
 
 /* header 3 topbar Transparent */ 
@@ -9624,7 +9627,8 @@ header .logo{
 .footer-dark .widget_nav_menu li a, 
 .footer-dark .widget_recent_entries ul li a, 
 .footer-dark .widget_services ul li a { 
-	color:#999;
+	/* color:#999; */
+	color: white;
 }
 
 .footer-dark .footer-top a:active,
@@ -9906,8 +9910,15 @@ button.scroltop span {
 	width:100% !important;
 }
 
+
+.tp-rightarrow,.tp-leftarrow{
+	visibility: hidden;
+}
+
+
 .boxed .tp-rightarrow {
 	right:0 !important;
+	
 }
 .boxed .tp-leftarrow {
 	left:0 !important;
@@ -13153,6 +13164,17 @@ font-weight: 700;
 							
 							
 						}
+
+						@media  screen and (min-width: 500px) and (max-width: 990px) {
+							.trancperancysection .trancperncy1{
+								margin-top: 150px;
+							
+							}
+						
+						 }
+
+
+
 						
 						
 						@media only screen and (max-width: 768px) {
@@ -13181,7 +13203,21 @@ font-weight: 700;
 						}
 						
 						
+						@media  screen and (min-width: 500px) and (max-width: 990px) {
+							.lowexecutionsection {
+								display: none;
+							
+							}
 						
+						 }
+
+						 @media  screen and (min-width: 500px) and (max-width: 990px) {
+							.tightspreadsection {
+								display: none;
+							
+							}
+						
+						 }
 						
 						
 						.tightspread{
@@ -13189,7 +13225,7 @@ font-weight: 700;
 							color: white;
 							background-repeat: no-repeat;
 							background-size: inherit;
-							background-position: 135%;
+							/* background-position: 135%; */
 						
 						}
 						
@@ -13200,7 +13236,7 @@ font-weight: 700;
 								background-image: url(../images/background/Group417.png)!important;
 								background-repeat: no-repeat;
 							background-size: inherit;
-							background-position: 135%;
+							/* background-position: 135%; */
 								
 							}
 						
@@ -13247,7 +13283,11 @@ font-weight: 700;
 						.normal-table-section-for-except {
 							position: relative;
 							border-radius: 0 10px 20px 20px!important;
-							background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26CC68 50%);
+							/* background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26CC68 50%); */
+							
+							background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#3fbcf1 50%);
+							
+							
 							background-clip: padding-box,border-box;
 							background-origin: padding-box,border-box;
 							border-left: 1px solid transparent;
@@ -13256,7 +13296,8 @@ font-weight: 700;
 						}
 						
 						.tablehead {
-							background-image:linear-gradient(90deg, #152a4a 0%,#0888be 48%,#24c870 85%,#26cc68 100%);
+							/* background-image:linear-gradient(90deg, #152a4a 0%,#0888be 48%,#24c870 85%,#26cc68 100%); */
+							background-image: linear-gradient(90deg, #152a4a 0%,#0888be 48%,#4ac6fb 85%,#07e7f4 100%);
 							position: relative;
 						}
 						
@@ -13376,8 +13417,12 @@ font-weight: 700;
 .normal-table-section-for-except {
     position: relative;
     border-radius: 0 10px 20px 20px!important;
-    background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26CC68 50%);
-    background-clip: padding-box,border-box;
+    /* background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#26CC68 50%); */
+   
+	background: linear-gradient(white,white),linear-gradient(to bottom right,#fff 14%,rgba(0,189,255,.48),#3fbcf1 50%);
+	
+	
+	background-clip: padding-box,border-box;
     background-origin: padding-box,border-box;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent!important;
@@ -13385,7 +13430,9 @@ font-weight: 700;
 }
 
 .tablehead {
-    background-image:linear-gradient(90deg, #152a4a 0%,#0888be 48%,#24c870 85%,#26cc68 100%);
+    /* background-image:linear-gradient(90deg, #152a4a 0%,#0888be 48%,#24c870 85%,#26cc68 100%); */
+	background-image: linear-gradient(90deg, #152a4a 0%,#0888be 48%,#4ac6fb 85%,#07e7f4 100%);
+	
     position: relative;
 }
 
@@ -14680,7 +14727,8 @@ margin-right: 0px;
 
 
 .globalproduct h4{
-	font-size: 22.5px;
+	/* font-size: 22.5px; */
+	font-size: 11.50px;
 	letter-spacing: normal;
     text-align: center;
     color: #0b121c !important;
@@ -14689,7 +14737,8 @@ margin-right: 0px;
 
 
 .globalproduct p{
-	font-size: 18.5px;
+	/* font-size: 18.5px; */
+	font-size: 14.5px;
     font-weight: 300;
 	line-height: 1.51;
     letter-spacing: normal;
@@ -15112,6 +15161,16 @@ margin-right: 0px;
     padding-bottom: 95px;
 }
 
+.tradeonmt4 img{
+
+	
+		border-style: none;
+		height: auto;
+		max-width: 50%;
+		vertical-align: middle;
+
+
+}
 
 .tradeonmt4 .light-blue-bg-font {
     font-size: 16.5px;
@@ -15130,4 +15189,105 @@ margin-right: 0px;
 
 
 
- /* REWORK MT$ Page End */
+ /* REWORK MT4 Page End */
+
+
+ /* rework on mt5 START */
+
+
+ .tradeonmt5 .light-blue-bg {
+	background-color: #000;
+ }
+ 
+ .tradeonmt5 #section2 {
+	 padding-top: 90px;
+	 padding-bottom: 95px;
+ }
+ 
+ .tradeonmt5 img {
+    border-style: none;
+    height: auto;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+ .tradeonmt5 .light-blue-bg-font {
+	 font-size: 16.5px;
+	 font-weight: 200;
+	 font-stretch: normal;
+	 font-style: normal;
+	 line-height: 1.51;
+	 letter-spacing: normal;
+	 text-align: center;
+	 color: #ffffff!important;
+ }
+ 
+ 
+ 
+ @media  screen and (min-width: 450px) and (max-width: 990px) {
+	.mt5foronline .fullcustom{
+		display: none;
+	
+	}
+
+ }
+
+ /* Rework o mt5 END */
+
+
+
+ /* reework on index page */
+
+ .holidayhourstable .tablehead th , .contractrollovertable th{
+	color: white;
+ }
+
+
+ @media  screen and (min-width: 500px) and (max-width: 990px) {
+	.copytrading .copytradingimg{
+		display: none;
+	
+	}
+
+ }
+
+
+
+ @media  screen and (min-width: 500px) and (max-width: 990px) {
+	.installtradingapp .phonebox{
+		display: none;
+	
+	}
+
+ }
+
+ @media only screen and (max-width: 990px) {
+	.lotsize .lotimage{
+		display: none;
+		
+	
+	}
+
+ }
+
+
+ @media only screen and (max-width: 990px) {
+	.Liquiditysection .liquidityimg{
+		display: none;
+	
+	}
+
+ }
+
+ @media  screen and (min-width: 500px) and (max-width: 990px) {
+	.holdperiodsection .holdperiod{
+		display: none;
+	
+	}
+
+ }
