@@ -13787,7 +13787,7 @@ margin-right: 0px;
 			background-size: contain!important;
 			background-position: 50% 0%!important;
 			background-color: black;
-			height: 710px;
+			
 		}
 	}
 
@@ -13859,6 +13859,32 @@ margin-right: 0px;
 			background-color:black;
 		}
 	}
+
+
+	@media screen and (min-width: 300px) and (max-width: 990px) {
+		.forex-broker-section .hideimage{
+			display: none;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 990px) {
+		.trade-execution .image-align{
+			padding-top: 150px;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 990px) {
+		.how-to-check .image-align{
+			padding-top: 150px;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 990px) {
+		.now-you-can .image-align{
+			padding-top: 150px;
+		}
+	}
+
 
 
 	.price-table .first-std-card {
@@ -14387,7 +14413,7 @@ margin-right: 0px;
 
 @media only screen and (max-width: 990px){
 	.ripple{
-		background-image: url(../images/background/rippleformobile.png)!important;
+		background-image: url(../images/background/mobile\ view.jpg)!important;
 		background-size: cover;
 	}
 }
