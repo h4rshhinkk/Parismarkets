@@ -115,6 +115,8 @@ ol.list-num-count > li::before,
 .masonry-filter.button-style.has-bg > li a:hover,
 .searchform input[type="submit"] {
 	background-color:#001b4a;
+	/* background-color:#0faefa; */
+
 }
 
 /* Premery hex buttons bg color*/
@@ -301,7 +303,9 @@ ol.list-num-count.list-outline > li::before,
  
 /* Secondery hex buttons bg color*/
 .site-button-secondry {
-	background-color:#171f2c;
+	/* background-color:#171f2c; */
+
+	background-color:#001b4a;
 }
 .site-button-secondry:hover,
 .site-button-secondry:focus,

@@ -12975,6 +12975,22 @@ font-weight: 700;
 	}
 }
 
+@media  screen and (min-width: 600px) and (max-width: 992px) {
+	.howdoessocialtradingworksection .how-does-social-trade{
+		background-color: black;
+	
+	}
+
+ }
+
+
+
+
+
+
+
+
+
 
   .reasontochoose .icon-content h4{
 	  color: white !important;
@@ -13245,6 +13261,22 @@ font-weight: 700;
 								
 							}
 						  }
+
+
+						  .handinhandsection .handinhand {
+							background-repeat: no-repeat;
+							background-size: cover;
+							background-position: 65% 100%;
+						}
+
+
+
+
+
+
+
+
+
 						
 						
 						
@@ -13663,7 +13695,7 @@ font-weight: 700;
 		
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: 35%;
+		background-position: 60%;
 	}
 	
 	
@@ -13690,20 +13722,37 @@ font-weight: 700;
 		}
 	  }
 
-	 
-
-
-@media  screen and (min-width: 321px) and (max-width: 1000px) {
+	  @media  screen and (min-width: 500px) and (max-width: 990px) {
 		.preindicatormain .preindicator {
-			
-			background-color: #000;
+			text-align: center!important;
+			background-color: white;
 		}
 
+
+	  }
+
+@media  screen and (min-width: 321px) and (max-width: 1000px) {
+		
 
 		.preindicatormain .preindicatordesc{
 			text-align: center!important;
+			
+			padding-top: 55px;
 		}
 	}
+
+
+	@media  screen and (min-width: 650px) and (max-width: 1000px) {
+		
+
+		.preindicatormain .preindicatordesc{
+			
+			margin-left: 25%;
+			margin-top: -170px;
+			
+		}
+	}
+
 	
 		
 	@media only screen and (max-width: 990px) {
@@ -13838,6 +13887,16 @@ margin-right: 0px;
 			background-color: black;
 		}
 	}
+
+	@media  screen and (min-width: 500px) and (max-width: 990px) {
+		.reciveautochartist .receive{
+
+			
+		}
+	
+	 }
+	
+
 
 	@media only screen and (max-width: 900px) {
 		.derivatives{
@@ -15291,3 +15350,37 @@ margin-right: 0px;
 	}
 
  }
+
+
+
+ @media  screen and (min-width: 500px) and (max-width: 990px) {
+	.whatismampammsection .mam-pammimg{
+		display: none;
+	
+	}
+
+ }
+
+ 
+ @media  screen and (min-width: 500px) and (max-width: 990px) {
+	.beapartofpmsection .beapartofpmdesc{
+		text-align: center;
+		margin-left: 25%;
+	
+	}
+
+ }
+
+
+
+
+
+ @media  screen and (min-width: 650px) and (max-width: 1000px) {
+		
+
+	.fpmforexbrokersection .fpmforexbrokerimg{
+		
+			margin-top: 150px;
+		
+	}
+}
