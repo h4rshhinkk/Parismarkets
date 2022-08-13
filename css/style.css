@@ -13199,11 +13199,11 @@ font-weight: 700;
 								background-image: url(../images/background/Group416.png)!important;
 								background-size: contain!important;
 								background-position: 50% 0%!important;
-								height: 710px;
+								
 							}
 						
 							.excuspeeddesc{
-								padding-top: 190px;
+								padding-top: 190px;  
 								
 							}
 							.excuspeeddesc p{
@@ -13246,21 +13246,7 @@ font-weight: 700;
 						}
 						
 						
-						@media only screen and (max-width: 600px) {
-							.tightspread {
-								background-size: cover!important;
-								background-image: url(../images/background/Group417.png)!important;
-								background-repeat: no-repeat;
-							background-size: inherit;
-							/* background-position: 135%; */
-								
-							}
 						
-							.clientsupportdesc{
-								padding-top: 190px;
-								
-							}
-						  }
 
 
 						  .handinhandsection .handinhand {
