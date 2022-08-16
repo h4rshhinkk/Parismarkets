@@ -13515,13 +13515,13 @@ font-weight: 700;
 
 .pmsuperior .color-para {
     margin-top: 5px;
-    font-size: 18px!important;
+    font-size: 15px!important;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.56!important;
     letter-spacing: normal;
-    text-align: center;
+    text-align: justify;
     color: #0b121c!important;
 }
 
@@ -13801,8 +13801,8 @@ margin-right: 0px;
 
 	.blue-button-last-section{
 		background: #1BBCE8;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 4px;
+		padding-bottom: 4px;
 		padding-left: 20px;
 		padding-right: 20px;
 		border-radius: 5px;
@@ -15197,7 +15197,7 @@ margin-right: 0px;
 
 
  .spreadaffectdesc{
-	font-size: 20px; color: rgb(255, 255, 255); line-height: 1; margin-bottom: 7px; font-weight: 300;
+	font-size: 15px; color: rgb(255, 255, 255); line-height: 1; margin-bottom: 7px; font-weight: 300;
 
 	
  }
