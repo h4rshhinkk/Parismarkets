@@ -13504,8 +13504,8 @@ font-weight: 700;
 
 .pmsuperior .color-para-head {
     margin-top: 5px;
-    font-size: 18.5px!important;
-    font-weight: 300!important;
+    font-size: 16.8px!important;
+    font-weight: 800!important;
     color: #0b121c!important;
     font-stretch: normal;
     font-style: normal;
@@ -13853,17 +13853,18 @@ margin-right: 0px;
 	.forex-calculator{
 		width:800px;
 		height:500px;
-		border:solid 2px;
-		border-top-right-radius: 15px;
+		border:solid 2px #4ac6fb;
+		border-radius: 15px;
+		background-color: white;
 	}
 
 	@media only screen and (max-width: 900px){
 		.forex-calculator{
 			width:300px;
-			height:500px;
-			border:solid 2px;
+			height:670px;
+			border:solid 2px #4ac6fb;
 			border-top-right-radius: 15px;
-			background: rgb(245, 245, 245); 
+			background: white; 
 		}
 	
 	}
@@ -15244,7 +15245,7 @@ margin-right: 0px;
 }
 
 .tradeonmt4 .light-blue-bg-font {
-    font-size: 16.5px;
+    font-size: 15.5px;
     font-weight: 200;
     font-stretch: normal;
     font-style: normal;
@@ -15288,7 +15289,7 @@ margin-right: 0px;
 
 
  .tradeonmt5 .light-blue-bg-font {
-	 font-size: 16.5px;
+	 font-size: 15.5px;
 	 font-weight: 200;
 	 font-stretch: normal;
 	 font-style: normal;
